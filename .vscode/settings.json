@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "jar/swing-inspector-1.2.3.jar",
+        "jar/JTattoo-1.6.13.jar",
+        "jar/MessengerGUI.jar"
+    ]
+}
