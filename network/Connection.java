@@ -4,6 +4,7 @@ import java.net.Socket;
 import java.io.*;
 import java.lang.Thread;
 import java.nio.charset.Charset;
+import java.sql.PreparedStatement;
 
 public class Connection {
 
@@ -64,4 +65,8 @@ public class Connection {
     public String toString() {
         return "Connection: " + socket.getInetAddress() + ": " + socket.getPort();
     }
+
+	public PreparedStatement preparedStatement(String query) {
+		return null;
+	}
 }

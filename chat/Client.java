@@ -82,6 +82,14 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
         b1.setForeground(Color.WHITE);
         b1.setBackground(new Color(39, 48, 57)); p.add(b1);
+        b1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String msg = tf1.getText();
+                if(msg.equals("")) return;
+                tf1.setText(null);
+                connection.sendString(s + ": " + msg);
+            }
+        });
 
         String q = JOptionPane.showInputDialog(Client.this, new String[] {"Create Nickname"}, "Messenger", JOptionPane.QUESTION_MESSAGE);
         s = q;
