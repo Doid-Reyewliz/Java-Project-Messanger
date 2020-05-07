@@ -98,9 +98,9 @@ public class Admin extends JFrame implements ActionListener, ConnectionListener 
         tp.addTab("Chat", p);
 
         JPanel panel_1 = new JPanel();
-		tp.addTab("New tab", null, panel_1, null);
+		tp.addTab("Table", null, panel_1, null);
 		
-		JButton btnNewButton = new JButton("New button");
+		JButton btnNewButton = new JButton("Show table");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent a) {
 				try {
