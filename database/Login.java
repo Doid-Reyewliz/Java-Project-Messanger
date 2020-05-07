@@ -57,44 +57,37 @@ public class Login extends JFrame {
 
         l.setBounds(175, 50, 170, 30);
         l.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 24));
-        l.setForeground(new Color(39, 48, 57));
-        p.add(l);
+        l.setForeground(new Color(39, 48, 57)); p.add(l);
 
         tf1.setBounds(165, 150, 150, 24);
         tf1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf1.setForeground(Color.GRAY);
 
-        tf1.setBackground(new Color(39, 48, 57));
-        p.add(tf1);
+        tf1.setBackground(new Color(39, 48, 57)); p.add(tf1);
 
         tf2.setBounds(165, 180, 150, 25);
         tf2.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf2.setForeground(Color.GRAY);
-        tf2.setBackground(new Color(39, 48, 57));
-        p.add(tf2);
+        tf2.setBackground(new Color(39, 48, 57)); p.add(tf2);
 
         l3.setCursor(new Cursor(Cursor.HAND_CURSOR));
         l3.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
         l3.setForeground(new Color(39, 48, 57));
-        l3.setBounds(330, 175, 50, 30);
-        p.add(l3);
+        l3.setBounds(330, 175, 50, 30); p.add(l3);
 
         b1.setBounds(200, 220, 80, 30);
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 15));
         b1.setForeground(Color.WHITE);
-        b1.setBackground(new Color(39, 48, 57));
-        p.add(b1);
+        b1.setBackground(new Color(39, 48, 57)); p.add(b1);
 
         l4.setCursor(new Cursor(Cursor.HAND_CURSOR));
         l4.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
         l4.setForeground(new Color(39, 48, 57));
-        l4.setBounds(215, 250, 50, 30);
-        p.add(l4);
+        l4.setBounds(215, 250, 50, 30); p.add(l4);
 
         l0.setBounds(0, 0, 500, 500);
         ImageIcon image = new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\6.jpg");
-        l0.setIcon(image);
-        p.add(l0);
+        l0.setIcon(image); p.add(l0);
 
         l4.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {

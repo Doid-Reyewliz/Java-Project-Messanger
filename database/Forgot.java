@@ -12,9 +12,7 @@ public class Forgot extends JFrame {
     private static final long serialVersionUID = -7025433544363129040L;
 
     private static Connection connection;
-
     private static ResultSet resultSet;
-
     private static PreparedStatement preparedStatement;
 
     private String qu[] = { "Choose question", "Name of your first pet", "Your University", "Favorite country" };

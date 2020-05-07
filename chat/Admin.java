@@ -65,21 +65,18 @@ public class Admin extends JFrame implements ActionListener, ConnectionListener 
         a.setBackground(new Color(29, 35, 42));
         a.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
         a.setForeground(Color.WHITE);
-        a.setEditable(false);
-        p.add(a);
+        a.setEditable(false); p.add(a);
 
         JScrollPane sp = new JScrollPane(a, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
                 JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         sp.setBounds(0, 0, 682, 404);
-        sp.setBackground(Color.BLACK);
-        p.add(sp);
+        sp.setBackground(Color.BLACK); p.add(sp);
 
         tf1.setBounds(0, 405, 570, 30);
         tf1.setBackground(new Color(39, 48, 57));
         tf1.setForeground(Color.GRAY);
         tf1.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
-        tf1.addActionListener(this);
-        p.add(tf1);
+        tf1.addActionListener(this); p.add(tf1);
 
         b1.setIcon(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\send.png"));
         b1.setBounds(580, 405, 100, 30);
