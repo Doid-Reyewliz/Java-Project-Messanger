@@ -101,7 +101,7 @@ public class Admin extends JFrame implements ActionListener, ConnectionListener 
 		tp.addTab("Table", null, panel_1, null);
 		
 		JButton btnNewButton = new JButton("Show table");
-		btnNewButton.addActionListener(new ActionListener() {
+		btnNewButton.addActionListener(new ActionListener() { 
 			public void actionPerformed(ActionEvent a) {
 				try {
 					String query="select * from users";
