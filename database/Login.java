@@ -70,7 +70,6 @@ public class Login extends JFrame {
         tf2.setForeground(Color.GRAY);
         tf2.setBackground(new Color(39, 48, 57)); p.add(tf2);
 
-        
         l3.setCursor(new Cursor(Cursor.HAND_CURSOR));
         l3.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
         l3.setForeground(new Color(39, 48, 57));
