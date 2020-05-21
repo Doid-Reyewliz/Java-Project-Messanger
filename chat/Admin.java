@@ -9,8 +9,9 @@ import java.sql.*;
 
 import com.jtattoo.plaf.hifi.HiFiLookAndFeel;
 
-import database.Connect;
 import net.proteanit.sql.DbUtils;
+
+import database.Connect;
 import network.ConnectionListener;
 
 public class Admin extends JFrame implements ActionListener, ConnectionListener {
