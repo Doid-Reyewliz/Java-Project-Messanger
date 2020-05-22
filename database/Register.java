@@ -46,7 +46,7 @@ public class Register extends JFrame {
 
         JFrame.setDefaultLookAndFeelDecorated(true);
         JFrame f = new JFrame();
-        f.setIconImage(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\VS.png").getImage());
+        f.setIconImage(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\IITU.png").getImage());
         f.setSize(500, 400);
         f.setTitle("Register");
         f.setLocation(500, 200);

@@ -54,7 +54,7 @@ public class Admin extends JFrame implements ActionListener, ConnectionListener 
 
         JFrame.setDefaultLookAndFeelDecorated(true);
         JFrame f = new JFrame();
-        f.setIconImage(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\VS.png").getImage());
+        f.setIconImage(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\IITU.png").getImage());
         f.setSize(700, 500);
         f.setTitle("Admin");
         f.setLocationRelativeTo(null);
@@ -68,8 +68,7 @@ public class Admin extends JFrame implements ActionListener, ConnectionListener 
         a.setForeground(Color.WHITE);
         a.setEditable(false); p.add(a);
 
-        JScrollPane sp = new JScrollPane(a, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED,
-                JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+        JScrollPane sp = new JScrollPane(a, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         sp.setBounds(0, 0, 682, 404);
         sp.setBackground(Color.BLACK); p.add(sp);
 
