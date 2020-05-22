@@ -10,7 +10,6 @@ import com.jtattoo.plaf.hifi.HiFiLookAndFeel;
 public class Register extends JFrame {
 
     private static Connection connection;
-    private static ResultSet resultSet;
     private static PreparedStatement preparedStatement;
 
     private static final long serialVersionUID = 1L;
@@ -150,7 +149,5 @@ public class Register extends JFrame {
 
         f.add(p);
         f.setVisible(true);
-
     }
-
 }

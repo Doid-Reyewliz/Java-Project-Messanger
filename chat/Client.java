@@ -14,11 +14,6 @@ import network.ConnectionListener;
 
 public class Client extends JFrame implements ActionListener, ConnectionListener {
 
-    private static final long serialVersionUID = 1809753839830074172L;
-    
-    private static final String IpAddr = "";
-    private static final int Port = 1234;
-
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable(){
         
@@ -28,6 +23,10 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
             }
         });
     }
+    private static final long serialVersionUID = 1809753839830074172L;
+    
+    private static final String IpAddr = "";
+    private static final int Port = 1234;
 
     Connection connection1;
     PreparedStatement preparedStatement;
@@ -141,5 +140,4 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
             }
         });
     }
-
 }

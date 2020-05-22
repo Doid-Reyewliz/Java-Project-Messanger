@@ -89,18 +89,12 @@ public class Login extends JFrame {
         ImageIcon image = new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\6.jpg");
         l0.setIcon(image); p.add(l0);
 
-        l4.addMouseListener(new MouseAdapter() {
-            public void mouseClicked(MouseEvent e) {
-                new Register();
-                f.dispose();
-            }
-        });
-
         tf1.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
                 tf1.setText("");
             }
         });
+        
         tf2.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
                 tf2.setText("");
@@ -111,6 +105,13 @@ public class Login extends JFrame {
         l3.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
                 new Forgot();
+                f.dispose();
+            }
+        });
+
+        l4.addMouseListener(new MouseAdapter() {
+            public void mouseClicked(MouseEvent e) {
+                new Register();
                 f.dispose();
             }
         });

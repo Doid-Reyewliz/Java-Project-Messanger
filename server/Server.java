@@ -34,7 +34,6 @@ public class Server implements ConnectionListener {
     public synchronized void onConnectionReady(network.Connection connection) {
         connections.add(connection);
         sentToAllConnections("Client connected: " + connection);
-
     }
 
     @Override
@@ -46,7 +45,7 @@ public class Server implements ConnectionListener {
     public synchronized void onDisconnect(network.Connection connection) {
         connections.remove(connection);
         sentToAllConnections("Client disconnected: " + connection);    
-}
+    }
 
     @Override
     public synchronized void onException(network.Connection connection, Exception e) {
@@ -58,6 +57,4 @@ public class Server implements ConnectionListener {
         connections.size();
         for(int i = 0; i < connections.size(); i++) connections.get(i).sendString(value);
     }
-
-
 }

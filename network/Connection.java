@@ -66,7 +66,7 @@ public class Connection {
         return "Connection: " + socket.getInetAddress() + ": " + socket.getPort();
     }
 
-	public PreparedStatement preparedStatement(String query) {
-		return null;
-	}
+    public PreparedStatement preparedStatement(String query) {
+        return null;
+    }
 }
