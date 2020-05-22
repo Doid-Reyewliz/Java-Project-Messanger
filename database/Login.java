@@ -51,11 +51,12 @@ public class Login extends JFrame {
         f.setTitle("Messenger");
         f.setLocation(500, 200);
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        f.setResizable(false);
 
         p.setBackground(new Color(29, 35, 42));
         p.setLayout(null);
 
-        l.setBounds(175, 50, 170, 30);
+        l.setBounds(175, 70, 170, 30);
         l.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 24));
         l.setForeground(new Color(39, 48, 57)); p.add(l);
 
@@ -78,7 +79,8 @@ public class Login extends JFrame {
         b1.setBounds(200, 220, 80, 30);
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 15));
         b1.setForeground(Color.WHITE);
-        b1.setBackground(new Color(39, 48, 57)); p.add(b1);
+        b1.setBackground(new Color(39, 48, 57)); 
+        p.add(b1);
 
         l4.setCursor(new Cursor(Cursor.HAND_CURSOR));
         l4.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
@@ -100,7 +102,6 @@ public class Login extends JFrame {
                 tf2.setText("");
             }
         });
-        
 
         l3.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {

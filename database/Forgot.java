@@ -24,7 +24,7 @@ public class Forgot extends JFrame {
 
     private JTextField tf1 = new JTextField(" Login");
     private JTextField tf2 = new JTextField(" Answer", 30);
-    private JTextField tf3 = new JTextField();
+    private JTextField tf3 = new JTextField(" Password ");
 
     private JButton b1 = new JButton("Check");
     private JButton b2 = new JButton("Back");
@@ -51,6 +51,7 @@ public class Forgot extends JFrame {
         f.setTitle("Reset Password");
         f.setLocation(500, 200);
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        f.setResizable(false);
         
         p.setLayout(null);
 
@@ -118,11 +119,9 @@ public class Forgot extends JFrame {
                     if (resultSet.next()){
                         JOptionPane.showMessageDialog(null,"It is login true");
         
-                        String pass = resultSet.getString("Password");
-        
-                        System.out.println(pass);
-        
-                       tf3.setText(pass);
+                        String pass = resultSet.getString("Password");        
+                        
+                        tf3.setText(pass);
         
                     }
                     else {

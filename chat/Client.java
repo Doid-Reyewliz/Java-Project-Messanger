@@ -55,6 +55,7 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
         f.setTitle("Messenger");
         f.setLocationRelativeTo(null);
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        f.setResizable(false);
 
         p.setBackground(new Color(29, 35, 42));
         p.setLayout(null);

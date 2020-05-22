@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Register",
+            "request": "launch",
+            "mainClass": "database.Register",
+            "projectName": "project_9150d4bc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Login",
             "request": "launch",
             "mainClass": "database.Login",

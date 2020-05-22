@@ -51,6 +51,7 @@ public class Register extends JFrame {
         f.setTitle("Register");
         f.setLocation(500, 200);
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        f.setResizable(false);
 
         p.setLayout(null);
 
@@ -83,13 +84,13 @@ public class Register extends JFrame {
         tf3.setBackground(new Color(39, 48, 57));
         p.add(tf3);
 
-        b1.setBounds(185, 250, 95, 30);
+        b1.setBounds(190, 250, 95, 30);
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 15));
         b1.setForeground(Color.WHITE);
         b1.setBackground(new Color(39, 48, 57));
         p.add(b1);
 
-        b2.setBounds(195, 290, 75, 30);
+        b2.setBounds(200, 290, 75, 30);
         b2.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 15));
         b2.setForeground(Color.WHITE);
         b2.setBackground(new Color(39, 48, 57));
