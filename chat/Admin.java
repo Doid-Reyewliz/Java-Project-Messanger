@@ -54,7 +54,7 @@ public class Admin extends JFrame implements ActionListener, ConnectionListener 
 
         JFrame.setDefaultLookAndFeelDecorated(true);
         JFrame f = new JFrame();
-        f.setIconImage(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\IITU.png").getImage());
+        f.setIconImage(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\VS.png").getImage());
         f.setSize(700, 500);
         f.setTitle("Admin");
         f.setLocationRelativeTo(null);
