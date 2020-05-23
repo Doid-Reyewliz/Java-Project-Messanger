@@ -57,10 +57,8 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
         f.setDefaultCloseOperation(EXIT_ON_CLOSE);
         f.setResizable(false);
 
-        p.setBackground(new Color(29, 35, 42));
         p.setLayout(null);
 
-        a.setBackground(new Color(29, 35, 42));
         a.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
         a.setForeground(Color.WHITE);
         a.setEditable(false);
@@ -70,16 +68,13 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
         sp.setBackground(Color.BLACK); p.add(sp);
 
         tf1.setBounds(0, 430, 570, 30);
-        tf1.setBackground(new Color(39, 48, 57));
-        tf1.setForeground(Color.GRAY);
         tf1.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
         tf1.addActionListener(this); p.add(tf1);
 
         b1.setIcon(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\send.png"));
         b1.setBounds(580, 430, 105, 30);
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
-        b1.setForeground(Color.WHITE);
-        b1.setBackground(new Color(39, 48, 57)); p.add(b1);
+        b1.setForeground(Color.WHITE); p.add(b1);
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String msg = tf1.getText();
