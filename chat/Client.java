@@ -64,7 +64,7 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
         a.setEditable(false);
         
         JScrollPane sp = new JScrollPane(a, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
-        sp.setBounds(0, 0, 686, 415);
+        sp.setBounds(0, 0, 692, 420);
         sp.setBackground(Color.BLACK); p.add(sp);
 
         tf1.setBounds(0, 430, 570, 30);
@@ -72,7 +72,7 @@ public class Client extends JFrame implements ActionListener, ConnectionListener
         tf1.addActionListener(this); p.add(tf1);
 
         b1.setIcon(new ImageIcon("C:\\Users\\Alfa\\Desktop\\project\\images\\send.png"));
-        b1.setBounds(580, 430, 105, 30);
+        b1.setBounds(580, 430, 110, 30);
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));
         b1.setForeground(Color.WHITE); p.add(b1);
         b1.addActionListener(new ActionListener() {
