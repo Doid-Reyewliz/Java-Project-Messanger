@@ -63,12 +63,14 @@ public class Login extends JFrame {
         tf1.setBounds(165, 150, 150, 24);
         tf1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf1.setForeground(Color.GRAY);
-        tf1.setBackground(new Color(39, 48, 57)); p.add(tf1);
+        tf1.setBackground(new Color(39, 48, 57));
+        tf1.setToolTipText("Enter your Login");  p.add(tf1);
 
         tf2.setBounds(165, 180, 150, 25);
         tf2.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf2.setForeground(Color.GRAY);
-        tf2.setBackground(new Color(39, 48, 57)); p.add(tf2);
+        tf2.setBackground(new Color(39, 48, 57)); 
+        tf2.setToolTipText("Enter your Password");  p.add(tf2);
 
         l3.setCursor(new Cursor(Cursor.HAND_CURSOR));
         l3.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 12));

@@ -64,25 +64,24 @@ public class Register extends JFrame {
         tf1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf1.setForeground(Color.GRAY);
         tf1.setBackground(new Color(39, 48, 57));
-        p.add(tf1);
+        tf1.setToolTipText("Enter your Login"); p.add(tf1);
 
         cb.setBounds(160, 150, 160, 25);
         cb.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         cb.setForeground(Color.GRAY);
-        cb.setBackground(new Color(39, 48, 57));
-        p.add(cb);
+        cb.setBackground(new Color(39, 48, 57)); p.add(cb);
 
         tf2.setBounds(160, 180, 160, 25);
         tf2.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf2.setForeground(Color.GRAY);
         tf2.setBackground(new Color(39, 48, 57));
-        p.add(tf2);
+        tf2.setToolTipText("Enter your Answer"); p.add(tf2);
 
         tf3.setBounds(160, 210, 160, 25);
         tf3.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 14));
         tf3.setForeground(Color.GRAY);
         tf3.setBackground(new Color(39, 48, 57));
-        p.add(tf3);
+        tf3.setToolTipText("Enter your Password"); p.add(tf3);
 
         b1.setBounds(190, 250, 95, 30);
         b1.setFont(new Font("Bahnschrift SemiCondensed", Font.BOLD, 15));
